@@ -40,9 +40,8 @@ export default {
       this.text = ''
     },
     deleteTodo(todo){
-      console.log(todo)
-         const index = this.todoArray.indexOf(todo);
-          this.todoArray.splice(index, 1);
+        const index = this.todoArray.indexOf(todo);
+        this.todoArray.splice(index, 1);
     }
     
   },
